@@ -11,6 +11,7 @@
   inputs.src-NimTacToe-master.ref   = "refs/heads/master";
   inputs.src-NimTacToe-master.owner = "JesterOrNot";
   inputs.src-NimTacToe-master.repo  = "Nim-Tac-Toe";
+  inputs.src-NimTacToe-master.dir   = "";
   inputs.src-NimTacToe-master.type  = "github";
   
   outputs = { self, nixpkgs, flakeNimbleLib, ...}@deps:
